@@ -10,6 +10,9 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <div id="example"></div>
+        <script src="{{ elixir('js/app.js') }}"></script>
+
         <!-- Styles -->
         <style>
             html, body {
