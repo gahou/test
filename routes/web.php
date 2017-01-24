@@ -11,6 +11,11 @@
 |
 */
 
+use App\User;
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('users', 'UserController@show');
+Route::get('users/{id}', 'UserController@find');
